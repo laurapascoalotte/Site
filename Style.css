@@ -1,0 +1,47 @@
+body{
+    font-family: Arial;
+    background-image: url(https://cdn.pixabay.com/photo/2016/08/29/21/54/george-peabody-bucherei-1629308_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: burlywood;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+}
+
+p{
+    line-height: 30px;
+    text-align: center;
+}
+.assunto {
+    margin: auto;
+    margin-top: 250px;
+    padding: 40px;
+    background-color: white;
+    width: 300px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px;
+}
+
+.botao {
+    display: grid;
+    place-content: center;
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+
+}
+
+.botao:hover {
+    background-color: tomato;
+    cursor:grab
+}
